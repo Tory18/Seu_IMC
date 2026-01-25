@@ -28,7 +28,7 @@ python main.py
 2. O programa criará um usuário de exemplo e exibirá:
    - Dados como nome, idade, sexo, peso, altura
    - Cálculo do IMC
-   - Classificação do resultado
+   -  Classificação do resultado
 
 ## Exemplo de Saída
 
@@ -75,6 +75,7 @@ Classifica o IMC do usuário:
 ## Requisitos
 
 - Python 3.7+
+
 
 
 

@@ -28,7 +28,7 @@ python main.py
 2. O programa criará um usuário de exemplo e exibirá:
    - Dados como nome, idade, sexo, peso, altura
    - Cálculo do IMC
-   - Classificação do resultado
+   - Seu do resultado
 
 ## Exemplo de Saída
 
@@ -45,7 +45,7 @@ IMC: 23.13
 Sua Classificacao é: NORMAL
 ```
 
-## 📚 Classes
+## Classes
 
 ### `Usuario`
 Gerencia os dados do usuário com validação:

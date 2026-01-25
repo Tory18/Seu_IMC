@@ -64,12 +64,13 @@ Classifica o IMC do usuário:
 ## Classificações de IMC
 
 | Faixa de IMC | Classificação |
-|-------------|---------------|
-| < 18.5      | Magreza       |
-| 18.5 – 24.9 | Normal        |
-| 25 – 29.9   | Sobrepeso     |
-| 30 – 39.9   | Obesidade     |
-| ≥ 40        | Obesidade Grave |
+|--------------|---------------|
+| < 18.5       | Magreza       |
+| 18.5 - 24.9  | Normal        |
+| 25 - 29.9    | Sobrepeso     |
+| 30 - 39.9    | Obesidade     |
+| >= 40        | Obesidade Grave |
+
 
 
 

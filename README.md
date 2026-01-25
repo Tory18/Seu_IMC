@@ -61,7 +61,7 @@ Classifica o IMC do usuário:
 - `classificar(imc_valor)`: classifica o IMC em faixas
 - `imprimir_classificacao()`: exibe o resultado
 
-## Classificações de IMC
+## Classificacoes de IMC
 
 | Faixa de IMC | Classificacao |
 |--------------|---------------|
@@ -77,6 +77,7 @@ Classifica o IMC do usuário:
 ## Requisitos
 
 - Python 3.7+
+
 
 
 

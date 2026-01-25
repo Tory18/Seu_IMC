@@ -45,7 +45,7 @@ IMC: 23.13
 Sua Classificacao é: NORMAL
 ```
 
-## 📚 Classes
+## Classes
 
 ### `Usuario`
 Gerencia os dados do usuário com validação:
@@ -75,6 +75,7 @@ Classifica o IMC do usuário:
 ## Requisitos
 
 - Python 3.7+
+
 
 
 

@@ -63,7 +63,7 @@ Classifica o IMC do usuário:
 
 ## Classificações de IMC
 
-| Faixa de IMC | Classificação |
+| Faixa de IMC | Classificacao |
 |--------------|---------------|
 | < 18.5       | Magreza       |
 | 18.5 - 24.9  | Normal        |
@@ -77,6 +77,7 @@ Classifica o IMC do usuário:
 ## Requisitos
 
 - Python 3.7+
+
 
 
 

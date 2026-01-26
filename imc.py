@@ -2,7 +2,8 @@ class IMC:
     def __init__(self):
         self._classificacao = None #atributo privado para armazenar a classificacao
         
-    def classificar(self, imc_valor):
+    def classificar(self, usuario):
+        imc_valor = usuario.calculo_imc
         faixas = [ #lista com as faixas de classificacao
             (18.5, "MAGREZA"),
             (25, "NORMAL"),
@@ -11,7 +12,7 @@ class IMC:
             (float('inf'), "OBESIDADE GRAVE")
         ]
         for limite, classe in faixas:
-            if imc_valor < limite:
+            if imc_valor <= limite:
                 self._classificacao = classe
                 break
         return self._classificacao

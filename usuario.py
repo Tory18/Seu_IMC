@@ -16,7 +16,7 @@ class Usuario: #criando a classe Usuario
         if isinstance(novo, str) and novo:
             self._nome = novo
         else:
-            raise ValueError("Tem que ser string")
+            raise ValueError("Deve ser string")
     
     @property
     def idade(self): 
@@ -27,7 +27,7 @@ class Usuario: #criando a classe Usuario
         if isinstance(novo, int) and novo >= 0:
             self._idade = novo
         else:
-            raise ValueError("Tem que ser inteiro")    
+            raise ValueError("Deve ser inteiro")    
  
     @property
     def sexo(self): 
@@ -38,7 +38,7 @@ class Usuario: #criando a classe Usuario
         if isinstance(novo, str) and novo in ['F', 'M']:
             self._sexo = novo
         else:
-            raise ValueError("Tem que ser string")
+            raise ValueError("Deve ser string")
         
     @property
     def peso(self): 
@@ -49,7 +49,7 @@ class Usuario: #criando a classe Usuario
         if isinstance(novo, (int, float)) and novo > 0:
             self._peso = novo
         else:
-            raise ValueError("Tem que ser float")    
+            raise ValueError("Deve ser float")    
     
     @property
     def altura(self): 
@@ -60,7 +60,7 @@ class Usuario: #criando a classe Usuario
         if isinstance(novo, (int, float)) and novo > 0:
             self._altura = novo
         else:
-            raise ValueError("Tem que ser float")
+            raise ValueError("Deve ser float")
     
     @property
     def calculo_imc(self): #metodo que calcula o imc

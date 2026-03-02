@@ -13,8 +13,8 @@ Um programa simples em Python que calcula o Índice de Massa Corporal (IMC) e cl
 ```
 Seu IMC/
 ├── main.py          # Arquivo principal - executa o programa
-├── usuario.py       # Classe Usuario - gerencia dados do usuário
-├── imc.py          # Classe IMC - calcula e classifica o IMC
+├── usuario.py       # Classe Usuario - gerencia dados do usuárioe e calcula imc
+├── imc.py          # Classe IMC - classifica o IMC
 └── README.md       # Este arquivo
 ```
 
@@ -77,6 +77,7 @@ Classifica o IMC do usuário:
 ## Requisitos
 
 - Python 3.7+
+
 
 
 
